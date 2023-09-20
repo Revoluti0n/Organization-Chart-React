@@ -48,6 +48,7 @@ function App() {
 
   const aoNovoColaboradorAdicionado = (colaborador) => {
     // console.log(colaborador)
+    // debugger // Parar a execução e entender o que está acontencendo no console, pode-se buscar a variável e ver o que ela retorna
     setColaboradores([...colaboradores, colaborador])
   }
 
