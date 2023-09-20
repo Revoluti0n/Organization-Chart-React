@@ -34,6 +34,12 @@ const Formulario = (props) => {
             time // time: time
         })
         // console.log('Form foi submetido => ', nome, cargo, imagem, time)
+
+        // Limpar os entryboxes após clicar em "Salvar":
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
     }
 
     return (
